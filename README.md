@@ -16,6 +16,12 @@ Clipboard is a modern clipboard management application built with Kotlin for And
 - 🔒 Session-Based Authentication: Securely log in with your email and password using session-based authentication, ensuring your data remains protected.
 - 🎨 Intuitive User Interface: Enjoy a sleek and user-friendly interface designed for smooth navigation and effortless operation.
 
+## Technologies and Libraries Used
+- Retrofit: Utilized for efficient network calls, enabling seamless communication with the server.
+- Socket.IO: Implemented for real-time communication, allowing for instant synchronization of text snippets across devices.
+- KeyStore: Integrated for secure storage of sensitive information, ensuring user credentials are protected.
+- Dagger (Dependency Injection): Employed for dependency injection, facilitating modularization and scalability of the codebase.
+
 ## Contributing
 We welcome contributions from the community! If you'd like to contribute, follow these steps:
 
