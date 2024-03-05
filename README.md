@@ -2,11 +2,11 @@
   <img src="https://github.com/siloxa/clipboard-android/blob/main/logo.png" alt="Clipboarrd Logo" width="100" height="100">
 </p>
 
-# 📋 Clipboard
+# 📋 Clipboard : Sync Your Thoughts, Anywhere, Anytime!
 Clipboard is a modern clipboard management application built with Kotlin for Android devices. It allows users to seamlessly sync and share text snippets in real-time across multiple devices. With Clipboard, you can create workspaces and invite others to collaborate, enabling efficient teamwork and information sharing.
 
 <p align="center">
-  <img src="https://github.com/siloxa/clipboard-android/blob/main/screens.png" alt="Screenshot 1" width="200"> 
+  <img src="https://github.com/siloxa/clipboard-android/blob/main/screens.png" alt="Screenshot 1" width="700"> 
 </p> 
 
 ## Features
