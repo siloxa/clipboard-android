@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatDelegate
 import com.google.gson.Gson
+import dagger.hilt.android.HiltAndroidApp
 import tech.siloxa.clipboard.db.SessionStorage
 import tech.siloxa.clipboard.utils.DimensionUtils
 
