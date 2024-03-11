@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -23,7 +25,7 @@ android {
 
     packaging {
         resources {
-            excludes +="META-INF/rxjava.properties"
+            excludes += "META-INF/rxjava.properties"
         }
     }
 
@@ -74,4 +76,8 @@ dependencies {
     implementation("io.socket:socket.io-client:2.0.0") {
         exclude(group = "org.json", module = "json")
     }
+
+    implementation ("com.google.dagger:hilt-android:2.51")
+    kapt("com.google.dagger:hilt-compiler:2.51")
+
 }
